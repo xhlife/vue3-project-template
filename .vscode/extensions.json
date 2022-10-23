@@ -1,0 +1,8 @@
+{
+  "recommendations": [ // 建议
+    // "johnsoncodehk.volar", // 打开提示安装 volar插件
+    "stylelint.vscode-stylelint", // 打开提示安装 styleint
+    "dbaeumer.vscode-eslint"  // 打开提示安装 eslint
+  ]
+  // 也可以添加其他动作，比如打开后自动下载那些扩展
+}
