@@ -19,7 +19,7 @@ NProgress.configure({showSpinner: false})
 router.beforeEach(
   async (to: RouteLocationNormalized, _: RouteLocationNormalized, next: NavigationGuardNext) => {
     NProgress.start()
-    const token = true
+    const token = false
     if (token) {
       // debugger
       if (to.path === "/login") {

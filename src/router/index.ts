@@ -3,7 +3,6 @@ import {createRouter, createWebHashHistory, RouteRecordRaw} from "vue-router"
 import Layout from "@/layout/index.vue"
 
 const constantFiles = import.meta.globEager("./whitelist/*.ts")
-console.log(constantFiles)
 
 const constantModules: Array<RouteRecordRaw> = []
 for (const i in constantFiles) {

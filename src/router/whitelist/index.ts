@@ -1,5 +1,5 @@
 import {RouteRecordRaw} from "vue-router"
-
+// import Login from "@/views/login/index.vue"
 const whiteList: Array<RouteRecordRaw> = [
   {
     path: "/login",
