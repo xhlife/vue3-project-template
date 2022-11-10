@@ -3,12 +3,14 @@
     login
     <p>{{ testRef?.test }}</p>
     <p>{{ testRef?.data }}</p>
+    <TT></TT>
   </div>
 </template>
 <script lang="ts" setup>
 import {ref, reactive, toRefs, onMounted} from "vue"
 import {getTest} from "@/api/test"
 import {Test} from "@/api/model/Test"
+import TT from "./test"
 
 const testRef = ref<Test | undefined | null>()
 onMounted(async () => {
